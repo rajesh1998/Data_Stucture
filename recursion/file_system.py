@@ -1,6 +1,5 @@
 import os
-
-path="E:\RAJESH\Python36(64 bit)"
+path="input_path_of_the_directory"
 def disk_usage(path):
     total = os.path.getsize(path)
     if os.path.isdir(path):
