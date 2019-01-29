@@ -1,4 +1,5 @@
 # in this file all the basics functions of stack are defined.
+# STACK- last in and first out(LIFO)
 class ArrayStack:
     def __init__(self):
         #create an empty stack
@@ -9,7 +10,7 @@ class ArrayStack:
         #true if it is empty
         return len(self.data)==0
     def push(self,e):
-        #inserts the element at topof the stack
+        #inserts the element at top of the stack
         self.data.append(e)
     def top(self):
         if self.is_empty():
